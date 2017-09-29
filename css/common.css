@@ -55,6 +55,11 @@ footer {
     background-color: #00b0b9;
 }
 
+footer a {
+    color: #fff;
+    font-size: 14px;
+}
+
 .gray-bg {
     background-color: #f9f9f9;
 }
