@@ -43,6 +43,22 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+footer {
+    padding: 20px;
+    text-align: center;
+    font-size: 11px;
+    color: #fff;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #00b0b9;
+}
+
+.gray-bg {
+    background-color: #f9f9f9;
+}
+
 button:focus {
     outline: none;
 }
@@ -87,13 +103,16 @@ header .navbar-default {
     z-index: 1000;
     background-color: rgba(0, 0, 0, 0.2);
     border: 0;
-    border-bottom: 1px solid rgba(51, 51, 51, 0.2);
+    border-bottom: 1px solid rgba(0, 176, 185, 0.15);
     margin-bottom: 0;
     width: 100%;
 }
 
 header .navbar-default .navbar-nav li a {
     color: #eee;
+    text-transform: uppercase;
+    font-size: 11px;
+    letter-spacing: 1px;
 }
 
 header .navbar-default .navbar-nav li a:hover,
@@ -157,16 +176,17 @@ header .navbar-nav .open .dropdown-menu .dropdown-header {
     padding: 5px 15px 5px 15px;
 }
 
-footer {
-    padding: 10px;
-    margin-top: 20px;
-    text-align: center;
-    font-size: 11px;
-    color: #eee;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 100%;
+header .product-overview-link {
+    background-color: rgba(0, 176, 185, 0.1);
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    padding: 5px 15px !important;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+header .product-overview-link:hover {
+    background-color: rgba(0, 176, 185, 0.2) !important;
 }
 
 .margin-top-20 {
@@ -198,10 +218,11 @@ footer {
 }
 
 .main-text {
-    font-size: 18px;
-    line-height: 22px;
+    font-size: 20px;
+    line-height: 24px;
     color: #656571;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
 }
 
 .home-main-content {
@@ -222,12 +243,16 @@ footer {
     padding: 60px 0;
 }
 
-.product-overview-area {
+.page-content {
     padding: 50px 0;
 }
 
+.page-content__main-topic {
+    margin-bottom: 40px;
+}
+
 .product-overview-area__description {
-    margin-top: 50px;
+
 
 }
 
